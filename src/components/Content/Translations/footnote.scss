@@ -1,0 +1,21 @@
+.footnote {
+  &__trigger {
+    color: rgb(0, 140, 255);
+    cursor: pointer;
+    margin-left: -5px;
+    padding: 10px 5px;
+
+    &:hover {
+      color: rgb(0, 80, 145);
+    }
+  }
+
+  &__content {
+    padding: 0;
+
+    p {
+      margin: 4px 2px;
+      padding: 0;
+    }
+  }
+}

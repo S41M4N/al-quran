@@ -1,0 +1,44 @@
+.content {
+  &__container {
+    flex: 1;
+    overflow: auto;
+    padding: 8px 0px;
+    position: relative;
+  }
+
+  &__card {
+    background-color: #fff;
+    box-shadow: 1px 1px 2px 1px #00000009;
+    min-height: 100%;
+    padding: 15px;
+  }
+
+  &__arabic {
+    border-bottom: 1px solid #ccc;
+    font-family: UthmanicHafs;
+    font-size: 35px;
+    line-height: 1.5;
+    padding: 18px 0px;
+    text-align: right;
+  }
+
+  &__translated {
+    border-bottom: 1px solid #ccc;
+    font-size: 19px;
+    line-height: 1.5;
+    padding: 18px 0px;
+    text-align: left;
+
+    &:last-child {
+      border: none;
+    }
+
+    &--bn {
+      font-family: NotoSansBengali, UthmanicHafs;
+    }
+
+    &--en {
+      font-family: Roboto, UthmanicHafs;
+    }
+  }
+}

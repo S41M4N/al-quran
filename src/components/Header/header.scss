@@ -1,0 +1,34 @@
+.header {
+  &__container {
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 1px 1px 2px 1px #00000009;
+    display: flex;
+    font-size: 19px;
+    height: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 99;
+  }
+
+  &__content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__settings {
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    padding: 8px;
+    transition: all 0.2s;
+
+    &:hover {
+      background-color: #eee;
+    }
+  }
+}

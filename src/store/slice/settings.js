@@ -5,7 +5,7 @@ const initialState = {
   autoPlay: false,
   showBangla: true,
   showEnglish: true,
-  showBanglaTafsir: false,
+  showBanglaTafsir: true,
   arabicFontSize: "32px",
   banglaFontSize: "20px",
   banglaTafsirFontSize: "18px",

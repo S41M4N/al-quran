@@ -1,7 +1,7 @@
 import useGet from '../hooks/useGet'
 
 export const useGetTranslatedAyat = (surah, ayat, translation) => {
-  const translationKeys = { bn: 213, en: 131 }
+  const translationKeys = { bn: 213, en: 20 }
 
   const { data, ...other } = useGet(
     `https://api.quran.com/api/v4/quran/translations/${translationKeys[translation]}?verse_key=${surah}:${ayat}`

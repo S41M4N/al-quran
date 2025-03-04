@@ -146,9 +146,9 @@ const Content = () => {
           </a>
         </p>
         <p>
-          English Translator:{' '}
-          <a href="https://theclearquran.org/" target="__blank">
-            Dr. Mustafa Khattab
+          English Translation:{' '}
+          <a href="https://en.wikipedia.org/wiki/Sahih_International" target="__blank">
+            Saheeh International
           </a>
         </p>
         <p>
